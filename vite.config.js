@@ -27,8 +27,8 @@ export default defineConfig({
   // config
   root: '',
   base: process.env.NODE_ENV === 'development'
-    ? '/'
-    : '/dist/',
+    ? '/wp-content/themes/wp-theme-vite-tailwind/'
+    : '/wp-content/themes/wp-theme-vite-tailwind/dist/',
 
   build: {
     // output dir for production build
